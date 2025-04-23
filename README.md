@@ -19,6 +19,13 @@
 - Xray-core
 - sing-box
 
+  一键安装 BBR v5 内核
+  切换加速模式（BBR+FQ、BBR+CAKE 等）
+  开启/关闭 BBR
+  卸载加速内核，告别不需要的内核版本
+  实时查看当前 TCP 拥塞算法和队列算法
+
+
 ## 协议
 
 > 以下均使用TLS，支持多种协议组合
@@ -80,6 +87,8 @@
 ```
 wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 ```
+一键运行
+bash <(curl -l -s https://raw.githubusercontent.com/byJoey/Actions-bbr-v5/refs/heads/main/install.sh)
 
 - 官方网站【备用】
 
